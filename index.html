@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Major Finder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div>
+  <h1>Mary Hardin-Baylor Major Magic</h1><br>
+  <h2>Find your perfect major!</h2>
+  </div>
+  <form id="majorForm">
+    <div id="step1" class="step">
+      <h2>Rate your interest in these subjects (1-5):</h2>
+      <h3>1-2: I never want to do it again;
+          3-4: I can pursue in my future;
+          5: I love this subject</h3>
+
+      <label>Math: <input type="number" name="math" min="1" max="5" value = "1" required></label><br>
+      <label>English: <input type="number" name="english" min="1" max="5" value = "1" required></label><br>
+      <label>Science: <input type="number" name="science" min="1" max="5" value = "1" required></label><br>
+      <label>History: <input type="number" name="history" min="1" max="5" value = "1" required></label><br>
+      <button type="button" onclick="goToGrades()">Next</button>
+    </div>
+
+    <div id="step2" class="step hidden">
+        <h2>What were your grades in the selected subjects?</h2>
+        <div id="gradeInputs"></div>
+        <button type="button" onclick="validateGrades()">Next</button>
+      </div>
+      
+
+    <div id="step3" class="step hidden">
+      <h2>Select atleast one hobby:</h2>
+      <label><input type="checkbox" name="hobbies" value="coding"> Coding</label><br>
+      <label><input type="checkbox" name="hobbies" value="writing"> Writing</label><br>
+      <label><input type="checkbox" name="hobbies" value="lab"> Science Experiments</label><br>
+      <label><input type="checkbox" name="hobbies" value="debate"> Debate</label><br>
+      <button type="button" onclick="goToCareers()">Next</button>
+    </div>
+
+
+    <div id="step4" class="step hidden">
+        <h2>Select up to 3 careers that interest you:</h2>
+        <div id="careerChoices"></div>
+        <button type="button" onclick="showMajors()">See Suggested Majors</button>
+      </div>
+      
+  </form>
+
+  <div id="results" class="hidden">
+    <h2>Suggested Majors:</h2>
+    <ul id="majorList"></ul>
+    <a href="https://www.umhb.edu/programs" target="_blank">Explore your interested majors and apply here! </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
