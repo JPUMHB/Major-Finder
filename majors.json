@@ -1,0 +1,34 @@
+{
+    "keywords": {
+      "math": ["Engineering", "Economics"],
+      "english": ["Journalism", "Law"],
+      "science": ["Biology", "Environmental Science"],
+      "history": ["Political Science", "History"],
+      "coding": ["Computer Science", "Software Engineering"],
+      "writing": ["Creative Writing", "Communications"],
+      "lab": ["Chemistry", "Biochemistry"],
+      "debate": ["Political Science", "Law"]
+    },
+"hobbyCareers": {
+  "coding": ["Software Developer", "Data Analyst", "Game Designer"],
+  "writing": ["Author", "Editor", "Content Strategist"],
+  "lab": ["Chemist", "Biologist", "Pharmaceutical Researcher"],
+  "debate": ["Lawyer", "Public Policy Analyst", "Politician"]
+},
+"careerMajors": {
+  "Software Developer": ["Computer Science", "Software Engineering"],
+  "Data Analyst": ["Data Science", "Statistics"],
+  "Game Designer": ["Interactive Media", "Computer Graphics"],
+  "Author": ["Creative Writing", "Literature"],
+  "Editor": ["English", "Journalism"],
+  "Content Strategist": ["Communications", "Marketing"],
+  "Chemist": ["Chemistry", "Biochemistry"],
+  "Biologist": ["Biology", "Environmental Science"],
+  "Pharmaceutical Researcher": ["Pharmacy", "Biochemistry"],
+  "Lawyer": ["Law", "Political Science"],
+  "Public Policy Analyst": ["Public Administration", "Sociology"],
+  "Politician": ["Political Science", "History"]
+}
+
+  }
+  
