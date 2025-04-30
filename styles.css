@@ -1,0 +1,104 @@
+body {
+  font-family: Arial,sans-serif;
+  background-color: #f0f0f0; /* Yellow background */
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: flex-start; /* Align content to the top */
+  min-height: 100vh; /* Ensure the background covers the whole viewport */
+  margin: 0; /* Remove default body margins */
+  padding-top: 20px; /* Add some top padding for spacing */
+}
+
+h1, h2 {
+  text-align: center;
+  color: #4d008c ; /* Purple heading text */
+  margin-bottom: 10px;
+}
+
+#majorForm, #results {
+  background-color: #fff; /* White background for the form and results */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px; /* Add some margin around the form/results */
+  width: 80%; /* Adjust width as needed, less than 100% */
+  max-width: 600px; /* Set a maximum width if desired */
+}
+
+.step {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd; /* Light grey border for steps */
+  border-radius: 4px;
+}
+
+.step h2, .step h3 {
+  color: #4d008c; /* Purple text for step headings */
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333; /* Dark grey label text */
+}
+
+input[type="number"], select {
+  width: calc(100% - 12px);
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc; /* Light grey border for input fields */
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+button {
+  background-color: #4d008c; /* Purple button background */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffc425; /* Yellow on hover */
+}
+
+.hidden {
+  display: none;
+}
+
+#results h2 {
+  color: #4d008c; /* Purple results heading */
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#majorList {
+  padding-left: 20px;
+  list-style-type: disc;
+  color: #555; /* Medium grey list item text */
+}
+
+#majorList li {
+  margin-bottom: 8px;
+}
+
+#majorList strong {
+  color: #333; /* Dark grey for the major names */
+}
+
+#careerChoices label {
+  display: inline-block;
+  margin-right: 15px;
+}
